@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.page2nav {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f7fb;
+}
+
+.baby,
+.family,
+.alternate,
+.fitness,
+.women,
+.devices {
+  border: 1px none;
+  font-weight: 600;
+  width: max-content;
+  background-color: whitesmoke;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.baby:hover,
+.family:hover,
+.alternate:hover,
+.fitness:hover,
+.women:hover,
+.devices:hover {
+  font-size: larger;
+}
+
+.active {
+  font-size: larger;
+  background-color: #3da7ff;
+  color: #fcfeff;
+  border-radius: 0.2rem;
+  /* border-radius: 0.2rem; */
+  box-shadow: 0px 3px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.babyproducts {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: none;
+  position: relative;
+  left: 19%;
+  top: 15px;
+}
+.imgup {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+.imgdown {
+  display: flex;
+  gap: 15px;
+}
+
+.img-baby {
+  border: 2px solid;
+  width: 300px;
+  height: 300px;
+}
